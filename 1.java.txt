@@ -1,0 +1,21 @@
+package guvi;
+
+import java.util.Scanner;
+
+public class Sumofyhree {
+
+	public static void main(String[] args) {
+		Scanner ne = new Scanner(System.in);
+		int a = ne.nextInt();
+		int b = ne.nextInt();
+		int c = ne.nextInt();
+		int d = ne.nextInt();
+
+		if (a + b > c + d) {
+			System.out.println("a+b is greater");
+		} else {
+			System.out.println("c+d is greater");
+		}
+	}
+
+}

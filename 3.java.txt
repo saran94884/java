@@ -1,0 +1,11 @@
+package guvi;
+
+public class AtoZ {
+	public static void main(String[] args) {
+		char aa;
+		for (aa = 'A'; aa <= 'Z'; ++aa) {
+			System.out.print(aa + " ");
+		}
+
+}
+}
